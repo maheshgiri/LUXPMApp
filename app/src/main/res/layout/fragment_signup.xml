@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:scrollbars="none"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_20"
+    tools:context=".activities.fragments.SignUpFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activities.fragments.StartFragment">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gradation"
+            android:layout_marginTop="@dimen/topMargin"
+            android:layout_gravity="center"
+            android:contentDescription="@string/gradation" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_signup"
+
+            android:fontFamily="@font/robotoregular"
+            android:textSize="@dimen/txtsize_23"
+            android:textAllCaps="true"
+            android:layout_marginTop="@dimen/margin_10"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:layout_gravity="center"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_name"
+            android:layout_margin="@dimen/margin_5"
+            android:textSize="@dimen/txtsize_16"
+            android:fontFamily="@font/robotoregular"
+            android:textColor="@color/lbl_color"
+            android:id="@+id/txtv_name"
+            />
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/lbl_hintname"
+            android:id="@+id/edttxt_name"
+            android:fontFamily="@font/robotoregular"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_phonenumber"
+            android:layout_margin="@dimen/margin_5"
+
+            android:textSize="@dimen/txtsize_16"
+            android:fontFamily="@font/robotoregular"
+            android:textColor="@color/lbl_color"
+            android:id="@+id/txtv_phonenumber"
+            />
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/margin_10"
+            android:hint="@string/lbl_hintphonenumber"
+            android:id="@+id/edttxt_phonenumber"
+            android:fontFamily="@font/robotoregular"
+
+            android:inputType="number"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_dateofbirth"
+            android:layout_margin="@dimen/margin_5"
+
+            android:textSize="@dimen/txtsize_16"
+            android:fontFamily="@font/robotoregular"
+            android:textColor="@color/lbl_color"
+            android:id="@+id/txtv_dateofbirth"
+            />
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/margin_10"
+            android:hint="@string/lbl_hintdateofbirth"
+            android:fontFamily="@font/robotoregular"
+
+            android:id="@+id/edttxt_dateofbirth"
+            android:inputType="date"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_email"
+            android:layout_margin="@dimen/margin_5"
+
+            android:textSize="@dimen/txtsize_16"
+            android:fontFamily="@font/robotoregular"
+            android:textColor="@color/lbl_color"
+            android:id="@+id/txtv_email"
+            />
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/margin_10"
+            android:hint="@string/lbl_hintemail"
+            android:fontFamily="@font/robotoregular"
+
+            android:id="@+id/edttxt_email"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_password"
+            android:layout_margin="@dimen/margin_5"
+
+            android:textSize="@dimen/txtsize_16"
+            android:fontFamily="@font/robotoregular"
+            android:textColor="@color/lbl_color"
+            android:id="@+id/txtv_password"
+            />
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/margin_10"
+            android:hint="@string/lbl_password"
+            android:fontFamily="@font/robotoregular"
+
+            android:id="@+id/edttxt_password"
+            android:inputType="textPassword"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_confirmpassword"
+            android:layout_margin="@dimen/margin_5"
+
+            android:textSize="@dimen/txtsize_16"
+            android:fontFamily="@font/robotoregular"
+            android:textColor="@color/lbl_color"
+            android:id="@+id/txtv_confirmpassword"
+            />
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/margin_10"
+            android:hint="@string/lbl_confirmpassword"
+            android:id="@+id/edttxt_confirmpassword"
+            android:fontFamily="@font/robotoregular"
+
+            android:inputType="textPassword"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+             <TextView
+                 android:layout_width="0dp"
+                 android:layout_height="match_parent"
+                 android:layout_weight="1"
+                 android:textAlignment="gravity"
+                 android:padding="8dp"
+
+                 android:textSize="@dimen/txtsize_11"
+                 android:fontFamily="@font/robotoregular"
+                 android:textColor="@color/lbl_color"
+                 android:text="@string/lbl_atleast8charector"
+                 android:gravity="center_vertical"
+                 android:id="@+id/txtv_atleasteightcharector"
+                 app:drawableLeftCompat="@drawable/item_undone" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textAlignment="gravity"
+                    android:padding="8dp"
+
+                    android:textSize="@dimen/txtsize_11"
+                    android:fontFamily="@font/robotoregular"
+                    android:textColor="@color/lbl_color"
+                    android:text="@string/lbl_atleastoneuppercase"
+                    android:gravity="center_vertical"
+                    android:id="@+id/txtv_atleastoneuppercase"
+                    app:drawableLeftCompat="@drawable/item_undone" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+
+                    android:textSize="@dimen/txtsize_11"
+                    android:fontFamily="@font/robotoregular"
+                    android:textColor="@color/lbl_color"
+                    android:id="@+id/txtv_atleastonenumber"
+                    android:textAlignment="gravity"
+                    android:padding="8dp"
+                    android:text="@string/lbl_atleastonenumber"
+                    android:gravity="center_vertical"
+                    app:drawableLeftCompat="@drawable/item_undone" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textAlignment="gravity"
+                    android:padding="8dp"
+
+                    android:textSize="@dimen/txtsize_11"
+                    android:fontFamily="@font/robotoregular"
+                    android:textColor="@color/lbl_color"
+                    android:id="@+id/txtv_atleastonespecial"
+                    android:text="@string/lbl_atleastonespecial"
+                    android:gravity="center_vertical"
+                    app:drawableLeftCompat="@drawable/item_undone" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_5"
+
+            android:layout_gravity="center"
+            android:text="@string/lbl_accepttermsandconditions"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height_53"
+            android:text="@string/lbl_signup"
+            android:layout_margin="@dimen/margin_10"
+            android:fontFamily="@font/robotoregular"
+
+            android:id="@+id/button_signup"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_corner_button"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:textSize="@dimen/txtsize_16"
+            android:fontFamily="@font/robotoregular"
+            android:textColor="@color/lbl_color"
+            android:text="@string/lbl_signuporlogin"
+            android:textAllCaps="false"
+            android:layout_marginTop="@dimen/margin_10"
+            android:id="@+id/txt_signin"
+            />
+
+
+   </LinearLayout>
+</ScrollView>

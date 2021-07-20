@@ -1,3 +1,41 @@
 <resources>
     <string name="app_name">LuxPMApp</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Login Fragment</string>
+    <string name="second_fragment_label">SignUp Fragment</string>
+    <string name="home_fragment_label">Home Fragment</string>
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="gradation">gradation</string>
+    <string name="label_stayaattop">Stay on the top of your finance</string>
+    <string name="lbl_signup">Signup</string>
+    <string name="lbl_login">Login</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_password">Password</string>
+    <string name="lbl_name">Name</string>
+    <string name="lbl_phonenumber">Phone Number</string>
+    <string name="lbl_dateofbirth">Date of birth</string>
+    <string name="lbl_hintname">Chae-Min Lee</string>
+    <string name="lbl_hintphonenumber">+82 111 1111111</string>
+    <string name="lbl_hintdateofbirth">mm - dd-yyyy</string>
+    <string name="lbl_hintemail">john.doe@alphametics.com</string>
+    <string name="lbl_confirmpassword">Confirm Password</string>
+    <string name="lbl_accepttermsandconditions">I agree to the terms and conditions </string>
+    <string name="lbl_signuporlogin">Already have an account? Login</string>
+    <string name="lbl_forgotpassword">Forgot your password </string>
+    <string name="lbl_signupuser">Don\'t have an account? sign up</string>
+    <string name="lbl_atleast8charector">At least 8 characters </string>
+    <string name="lbl_atleastoneuppercase">at least one uppercase letter </string>
+    <string name="lbl_atleastonenumber">at least one number </string>
+    <string name="lbl_atleastonespecial">at least one special character </string>
+    <string name="labl_validateemailstring">Please provide the right email format</string>
+    <string name="errormessage_login">Please check username and password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

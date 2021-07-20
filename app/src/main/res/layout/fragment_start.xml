@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margin_20"
+    tools:context=".activities.fragments.StartFragment">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/gradation"
+    android:layout_marginTop="@dimen/topMargin"
+    android:layout_gravity="center"
+    android:contentDescription="@string/gradation" />
+<View
+    android:layout_width="112dp"
+    android:layout_height="70dp"
+    android:background="@drawable/ic_group_11"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/topMargin"
+    />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:textSize="@dimen/txtsize_23"
+    android:fontFamily="@font/robotoregular"
+    android:textColor="@color/txtcolor_stay_on_top"
+    android:layout_marginTop="@dimen/margin_20"
+    android:text="@string/label_stayaattop"
+    />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/button_height_53"
+    android:text="@string/lbl_signup"
+    android:id="@+id/button_signup"
+    android:layout_marginTop="@dimen/topMargin"
+    android:layout_gravity="center"
+    android:fontFamily="@font/robotobold"
+    android:background="@drawable/rounded_corner_button"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/txtv_login"
+        android:text="@string/lbl_login"
+        android:fontFamily="@font/robotoregular"
+        android:layout_marginTop="@dimen/topmargin_18"
+       android:textSize="@dimen/txtsize_16"
+        android:textColor="@color/txtcolor_login"
+        />
+
+
+</LinearLayout>

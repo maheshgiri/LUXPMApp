@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_20"
+    android:layout_centerVertical="true"
+    tools:context=".activities.fragments.LoginFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        tools:context=".activities.fragments.StartFragment">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gradation"
+            android:layout_marginTop="@dimen/topMargin"
+            android:layout_gravity="center"
+            android:contentDescription="@string/gradation" />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/lbl_login"
+           android:textSize="@dimen/txtsize_23"
+           android:textAllCaps="true"
+           android:fontFamily="@font/robotoregular"
+
+           android:layout_marginTop="@dimen/margin_10"
+           android:layout_marginBottom="@dimen/margin_10"
+           android:layout_gravity="center"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_email"
+            android:fontFamily="@font/robotoregular"
+
+            android:id="@+id/txtv_lblemail"
+            />
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:drawableLeft="@drawable/ic_icon_material_email"
+            android:fontFamily="@font/robotoregular"
+android:id="@+id/edttxt_email"
+            android:drawableStart="@drawable/ic_icon_material_email"
+            android:hint="@string/lbl_email"
+        android:labelFor="@+id/txtv_lblemail"
+            android:drawablePadding="@dimen/margin_10"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/robotoregular"
+
+            android:text="@string/lbl_password"
+            android:id="@+id/txtv_lblpassword"
+            />
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_icon_material_email"
+            android:drawableStart="@drawable/ic_icon_material_email"
+            android:drawablePadding="@dimen/margin_10"
+           android:id="@+id/edttxt_password"
+            android:hint="@string/lbl_password"
+            android:labelFor="@+id/txtv_password"
+            android:fontFamily="@font/robotoregular"
+
+            android:inputType="textPassword"
+            />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/lbl_forgotpassword"
+    android:layout_gravity="end"
+    android:fontFamily="@font/robotoregular"
+
+   />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height_53"
+            android:text="@string/lbl_login"
+            android:id="@+id/button_login"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginRight="@dimen/margin_10"
+            android:fontFamily="@font/robotoregular"
+            android:layout_marginTop="@dimen/top_40"
+            android:background="@drawable/rounded_corner_button"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/txtsize_16"
+            android:fontFamily="@font/robotoregular"
+            android:textColor="@color/lbl_color"
+            android:text="@string/lbl_signupuser"
+            android:layout_marginTop="@dimen/margin_10"
+            android:id="@+id/txt_signup"
+            android:textAllCaps="false"
+
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
